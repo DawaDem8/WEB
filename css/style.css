@@ -28,6 +28,26 @@ h1{
     text-align: center;
     color: rgb(225, 0, 34);
 }
+.herocon {
+    text-align: center;
+    /* padding: 10px; */
+    background-image: url("../img/bg.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+}
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 49vh;
+    color: white;
+    padding-top: 10px;
+}
+
 img {
     width: 450px;
     height: 400px;
